@@ -1,0 +1,19 @@
+{
+  "name": "automation-testing-ms-page",
+  "version": "1.0.0",
+  "description": "Basic automation testing demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f @cucumber/pretty-formatter features/test-demo.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^9.1.2",
+    "chai": "^4.3.7",
+    "selenium-webdriver": "^4.9.2"
+  },
+  "devDependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0"
+  }
+}
