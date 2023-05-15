@@ -1,7 +1,6 @@
 // MANDAMOS A LLAMAR LOS RECURSOS QUE UTILIZAREMOS DE CADA PAQUETE NODE
-const {Given, When, And, Then, setDefaultTimeout} = require('@cucumber/cucumber');
+const {Given, When, And, Then, setDefaultTimeout, Before, After} = require('@cucumber/cucumber');
 const {expect} = require('chai'); 
-const { Before, After} = require('cucumber');
 const webdriver = require('selenium-webdriver');
 const {By} = require('selenium-webdriver');
 const fs = require('fs');
